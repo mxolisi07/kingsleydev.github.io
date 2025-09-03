@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kingsley Maamogwa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Kingsley</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="Kingsley's Resume.pdf" class="resume-btn" download>Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section class="contact-hero">
+            <h1>Get In Touch</h1>
+            <p>Have a question, want to work together, or just want to say hello? Feel free to send me a message. I'm always open to discussing new projects and opportunities.</p>
+        </section>
+
+        <div class="contact-grid">
+            <!-- Column 1: Contact Form -->
+            <div class="contact-form-container">
+                <h2>Send Me a Message</h2>
+                <form id="contact-form" action="https://formspree.io/f/xnnbzzzv" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div id="form-status"></div> <!-- For success/error messages -->
+            </div>
+
+            <!-- Column 2: Contact Information -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>I'm available to discuss new opportunities. Reach out to me via email or phone, or connect with me on my professional networks.</p>
+
+                <div class="contact-detail">
+                    <h3><span class="icon">📧</span> Email</h3>
+                    <a href="mailto:kingsleymaamogwa@gmail.com">kingsleymaamogwa@gmail.com</a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3><span class="icon">📞</span> Phone</h3>
+                    <a href="tel:+27782237518">+27 78 223 7518</a>
+                </div>
+
+                <div class="contact-detail">
+                    <h3><span class="icon">📍</span> Location</h3>
+                    <p>Wolmaransstad, North West</p>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Me</h3>
+                    <!-- Replace # with your actual profile URLs -->
+                    <a href="https://github.com/" target="_blank" rel="noopener" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/mxoliswa-maamogwa-21332720a" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kingsley Maamogwa. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

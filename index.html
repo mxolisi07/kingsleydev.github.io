@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsley Maamogwa | Aspiring IT Specialist & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Kingsley</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li> <!-- Link to your new About page -->
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- For your future page -->
+                <li><a href="Kingsley's Resume.pdf" class="resume-btn" download>Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Kingsley 👋</h1>
+                <h2>Aspiring IT Specialist & Software Developer</h2>
+                <p>I build digital solutions that solve practical problems and enhance user experiences. From streamlining business operations to creating engaging educational platforms.</p>
+                <a href="#projects" class="cta-button">View My Projects</a>
+            </div>
+        </section>
+
+        <!-- INSERT YOUR EXISTING PROJECTS SECTION HERE -->
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- PROJECT 1: Car Rental System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Login page.png" alt="Screenshot of the Car Rental Management System interface">
+                    </div>
+                    <div class="project-info">
+                        <h3>Car Rental Management System</h3>
+                        <p class="project-description">A desktop application streamlining administrative tasks for rental companies, reducing errors and improving efficiency.</p>
+                        <div class="tech-used">
+                            <span>Java</span>
+                            <span>Java Swing</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mxolisi07/Car-Rental-Management-System.git" target="_blank" rel="noopener" class="project-link">View Code</a>
+                            <a href="#" class="project-link" id="btn-car-rental">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2: Pizza Ordering System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Pizza Ordering System.png" alt="Screenshot of the Pizza Ordering System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Pizza Ordering System</h3>
+                        <p class="project-description">A desktop e-commerce system for managing inventory, processing orders, and tracking sales for health products.</p>
+                        <div class="tech-used">
+                            <span>Java</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mxolisi07/Pizza-Ordering-System.git" target="_blank" rel="noopener" class="project-link">View Code</a>
+                            <a href="#" class="project-link" id="btn-pizza-order">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3: Pine City Zoo -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/PineCityPlaces.png" alt="Screenshot of the Pine City Zoo website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Pine City Zoo</h3>
+                        <p class="project-description">An interactive front-end web application for a virtual zoo tour, showcasing animals and their habitats.</p>
+                        <div class="tech-used">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mxolisi07/Pine-City-Zoo.git" target="_blank" rel="noopener" class="project-link">View Code</a>
+                            <a href="#" class="project-link" id="btn-pine-zoo">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- END OF PROJECTS SECTION -->
+
+    </main>
+
+    
+    <!-- Car Rental System Modal -->
+<div id="modal-car-rental" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Car Rental Management System</h2>
+        <h3>Streamlining Operations for a Digital Garage</h3>
+        
+        <h4>The Problem</h4>
+        <p>Small to medium-sized car rental companies often rely on manual record-keeping with spreadsheets or paper-based systems. This leads to inefficiencies, difficulty tracking vehicle availability, higher risk of human error in billing, and a poor overview of business performance.</p>
+        
+        <h4>The Solution</h4>
+        <p>I designed and developed a comprehensive desktop application to serve as a centralized management hub. The system digitizes the entire rental lifecycle, from adding new vehicles to generating end-of-day financial reports, ensuring data accuracy and saving administrative time.</p>
+        
+        <h4>Key Features & Implementation</h4>
+        <ul>
+            <li><strong>Vehicle & Customer Management:</strong> Secure databases to add, edit, and archive vehicle and customer records.</li>
+            <li><strong>Transaction Processing:</strong> An intuitive interface to handle rentals and returns, automatically calculating costs.</li>
+            <li><strong>Availability Tracking:</strong> Automatic status updates (Available, Rented, Maintenance) to prevent double-booking.</li>
+            <li><strong>Reporting Module:</strong> Generate instant reports on revenue and customer history.</li>
+            <li><strong>Tech Stack:</strong> Built with <strong>Java</strong> and <strong>Java Swing</strong> for the GUI, connected to a <strong>MySQL</strong> database.</li>
+        </ul>
+        
+        <h4>What I Learned</h4>
+        <p>This project deepened my understanding of <strong>relational database design</strong>, <strong>CRUD operations</strong>, and building intuitive user interfaces for complex business logic.</p>
+    </div>
+</div>
+
+<!-- Pizza Ordering System Modal -->
+<div id="modal-pizza-order" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Pizza Ordering System</h2>
+        <h3>A Slice of Efficiency – From Click to Kitchen</h3>
+        
+        <h4>The Problem</h4>
+        <p>Traditional phone orders for pizza can be prone to errors during peak hours, lack a visual menu, and don't provide an easy way for customers to customize their orders or for owners to track sales trends.</p>
+        
+        <h4>The Solution</h4>
+        <p>I created a user-friendly desktop application that simulates a modern pizza ordering experience. It allows customers to build their perfect pizza with a visual list of toppings, manages order fulfillment for the kitchen staff, and provides administrators with tools to update the menu and view sales data.</p>
+        
+        <h4>Key Features & Implementation</h4>
+        <ul>
+            <li><strong>Interactive Menu:</strong> Graphical interface to select sizes, crust types, and toppings with real-time cost calculation.</li>
+            <li><strong>Order Management Cart:</strong> Users can add multiple pizzas, review, and proceed to checkout.</li>
+            <li><strong>Admin Dashboard:</strong> Secured portal for managers to update the menu and view order analytics.</li>
+            <li><strong>Order Tracking:</strong> Simple status updates (e.g., "Order Received," "Cooking," "Ready for Pickup").</li>
+            <li><strong>Tech Stack:</strong> Developed with <strong>Java</strong> and <strong>Java Swing</strong>. Utilized <strong>MySQL</strong> to manage items and orders.</li>
+        </ul>
+        
+        <h4>What I Learned</h4>
+        <p>This project was a fantastic lesson in <strong>event-driven programming</strong> and creating a dynamic <strong>user experience (UX)</strong>. Handling real-time price calculation reinforced my logic skills in Java.</p>
+    </div>
+</div>
+
+<!-- Pine City Zoo Modal -->
+<div id="modal-pine-zoo" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Pine City Zoo</h2>
+        <h3>Bringing the Zoo Experience Online</h3>
+        
+        <h4>The Problem</h4>
+        <p>Potential visitors often want to preview a zoo's attractions before planning a visit. A static, informational website fails to capture the excitement and educational value of the animals, missing an opportunity to engage users and drive ticket sales.</p>
+        
+        <h4>The Solution</h4>
+        <p>I designed and developed a dynamic, interactive virtual tour website for a fictional zoo. The site allows users to explore different animal exhibits, learn detailed facts in an engaging way, and easily find practical visit information, creating an online experience that mirrors the wonder of an actual visit.</p>
+        
+        <h4>Key Features & Implementation</h4>
+        <ul>
+            <li><strong>Interactive Habitat Sections:</strong> Themed sections (e.g., African Savannah, Amazon Rainforest) with curated animal displays.</li>
+            <li><strong>Dynamic Animal Cards:</strong> Clickable animal profiles that reveal detailed information about their species, habitat, and conservation status, enhancing user engagement.</li>
+            <li><strong>Responsive Design:</strong> A fully responsive layout that provides an optimal viewing experience across all devices, from desktops to mobile phones.</li>
+            <li><strong>Modern Front-End Stack:</strong> Built from scratch with semantic <strong>HTML5</strong>, styled with <strong>CSS3</strong> (utilizing Flexbox/Grid for layout), and enhanced with interactive elements using vanilla <strong>JavaScript</strong>.</li>
+            <li><strong>Design-First Approach:</strong> Prototyped the user interface and experience in <strong>Figma</strong> before writing any code, ensuring a visually appealing and intuitive final product.</li>
+        </ul>
+        
+        <h4>What I Learned</h4>
+        <p>This project was a perfect exercise in modern front-end development. It solidified my skills in <strong>creating responsive layouts</strong>, manipulating the DOM with JavaScript to create interactivity, and following a <strong>design-to-code workflow</strong>. It emphasized the importance of designing for the user first to create a compelling and functional web experience.</p>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kingsley Maamogwa. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <!-- Modals -->
+    <!-- (Keep your existing modals for the projects here, just before the closing </body> tag) -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

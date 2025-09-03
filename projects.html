@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kingsley Maamogwa | Aspiring IT Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Kingsley</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li> <!-- Active page -->
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Kingsley's Resume.pdf" class="resume-btn" download>Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="projects-page-container">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <h1>My Projects</h1>
+            <p>Here's a deep dive into the applications I've built. Each project represents my journey in solving complex problems with code and design.</p>
+        </section>
+
+        <!-- Project 1: Car Rental System -->
+        <article class="project-detail" id="car-rental">
+            <div class="project-header">
+                <h2>Car Rental Management System</h2>
+                <p class="project-tagline">Streamlining Operations for a Digital Garage</p>
+            </div>
+            
+            <div class="project-overview">
+                <div class="project-image-large">
+                    <img src="images/Login page.png" alt="Detailed view of Car Rental Management System">
+                </div>
+                
+                <div class="project-meta">
+                    <div class="project-links-vertical">
+                        <a href="https://github.com/mxolisi07/Car-Rental-Management-System.git" target="_blank" rel="noopener" class="project-link-large">View Source Code</a>
+                        <!-- You could add a demo link here if available -->
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-list">
+                            <span>Java</span>
+                            <span>Java Swing</span>
+                            <span>MySQL</span>
+                            <span>NetBeans IDE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-section">
+                    <h3>The Challenge</h3>
+                    <p>Small to medium-sized car rental companies often rely on manual record-keeping with spreadsheets or paper-based systems. This leads to inefficiencies, difficulty tracking vehicle availability, higher risk of human error in billing, and a poor overview of business performance.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>The Solution</h3>
+                    <p>I designed and developed a comprehensive desktop application to serve as a centralized management hub. The system digitizes the entire rental lifecycle, from adding new vehicles to generating end-of-day financial reports, ensuring data accuracy and saving administrative time.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Vehicle & Customer Database:</strong> Secure management of vehicle and customer records with full CRUD functionality.</li>
+                        <li><strong>Rental Transaction Processing:</strong> Automated handling of rentals and returns with integrated pricing calculations.</li>
+                        <li><strong>Real-time Availability Tracking:</strong> Automatic status updates (Available, Rented, Maintenance) to prevent double-booking.</li>
+                        <li><strong>Reporting Module:</strong> Generation of financial and operational reports for business intelligence.</li>
+                        <li><strong>User Authentication:</strong> Secure login system to protect sensitive business data.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Technical Implementation</h3>
+                    <p>The application follows a Model-View-Controller (MVC) architecture with a Java Swing GUI frontend and a MySQL database backend. I implemented custom event handlers for the UI components and used JDBC for database connectivity, ensuring robust data persistence and transaction management.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 2: Pizza Ordering System -->
+        <article class="project-detail" id="pizza-order">
+            <div class="project-header">
+                <h2>Pizza Ordering System</h2>
+                <p class="project-tagline">A Slice of Efficiency – From Click to Kitchen</p>
+            </div>
+            
+            <div class="project-overview">
+                <div class="project-image-large">
+                    <img src="images/Pizza Ordering System.png" alt="Detailed view of Pizza Ordering System">
+                </div>
+                
+                <div class="project-meta">
+                    <div class="project-links-vertical">
+                        <a href="https://github.com/mxolisi07/Pizza-Ordering-System.git" target="_blank" rel="noopener" class="project-link-large">View Source Code</a>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-list">
+                            <span>Java</span>
+                            <span>Java Swing</span>
+                            <span>MySQL</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-section">
+                    <h3>The Challenge</h3>
+                    <p>Traditional phone orders for pizza can be prone to errors during peak hours, lack a visual menu, and don't provide an easy way for customers to customize their orders or for owners to track sales trends.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>The Solution</h3>
+                    <p>I created a user-friendly desktop application that simulates a modern pizza ordering experience. It allows customers to build their perfect pizza with a visual list of toppings, manages order fulfillment for the kitchen staff, and provides administrators with tools to update the menu and view sales data.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Interactive Menu Interface:</strong> Visual selection of pizza sizes, crust types, and toppings with real-time price updates.</li>
+                        <li><strong>Shopping Cart System:</strong> Ability to add multiple items, review orders, and modify quantities before checkout.</li>
+                        <li><strong>Order Management Dashboard:</strong> Kitchen display system showing order status and preparation progress.</li>
+                        <li><strong>Admin Control Panel:</strong> Secure interface for menu management, price adjustments, and sales reporting.</li>
+                        <li><strong>Order History & Analytics:</strong> Tracking of sales data and customer order patterns for business insights.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Technical Implementation</h3>
+                    <p>The system features a responsive Java Swing interface with custom rendering of food items. I implemented a dynamic pricing engine that calculates costs based on user selections in real-time. The database design normalized menu items, orders, and customer data to ensure efficient querying and data integrity.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Project 3: Pine City Zoo -->
+        <article class="project-detail" id="pine-zoo">
+            <div class="project-header">
+                <h2>Pine City Zoo</h2>
+                <p class="project-tagline">Bringing the Zoo Experience Online</p>
+            </div>
+            
+            <div class="project-overview">
+                <div class="project-image-large">
+                    <img src="images/PineCityPlaces.png" alt="Detailed view of Pine City Zoo website">
+                </div>
+                
+                <div class="project-meta">
+                    <div class="project-links-vertical">
+                        <a href="https://github.com/mxolisi07/Pine-City-Zoo.git" target="_blank" rel="noopener" class="project-link-large">View Source Code</a>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-section">
+                    <h3>The Challenge</h3>
+                    <p>Potential visitors often want to preview a zoo's attractions before planning a visit. A static, informational website fails to capture the excitement and educational value of the animals, missing an opportunity to engage users and drive ticket sales.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>The Solution</h3>
+                    <p>I designed and developed a dynamic, interactive virtual tour website for a fictional zoo. The site allows users to explore different animal exhibits, learn detailed facts in an engaging way, and easily find practical visit information, creating an online experience that mirrors the wonder of an actual visit.</p>
+                </div>
+
+                <div class="project-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Interactive Habitat Sections:</strong> Themed areas (African Savannah, Amazon Rainforest) with curated animal displays.</li>
+                        <li><strong>Dynamic Animal Profiles:</strong> Clickable cards that reveal detailed information about species, habitat, and conservation status.</li>
+                        <li><strong>Responsive Design:</strong> Fully adaptive layout that works seamlessly on desktop, tablet, and mobile devices.</li>
+                        <li><strong>Visual Storytelling:</strong> High-quality imagery and intuitive navigation that creates an immersive experience.</li>
+                        <li><strong>Visit Planning Tools:</strong> Integrated information about tickets, hours, and directions to encourage actual visits.</li>
+                    </ul>
+                </div>
+
+                <div class="project-section">
+                    <h3>Technical Implementation</h3>
+                    <p>Built with semantic HTML5 for accessibility, CSS3 with Flexbox/Grid for modern layouts, and vanilla JavaScript for interactive elements. I followed a mobile-first approach and used CSS transitions and transformations to create smooth animations. The design was first prototyped in Figma to ensure visual consistency and user experience quality.</p>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kingsley Maamogwa. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
